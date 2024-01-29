@@ -10,7 +10,7 @@ import openpyxl
 today = datetime.today()
 # Format the date as "dd/mm/yyyy"
 formatted_date = today.strftime('%d/%m/%Y')
-url_header = 'https://www.thegazette.co.uk/insolvency/notice?text=&categorycode=G405010102&categorycode=G405010202&categorycode=G405010302&categorycode=G405010501&categorycode=G405010502&categorycode=-2&location-postcode-1=&location-distance-1=1&location-local-authority-1=&numberOfLocationSearches=1&start-publish-date=18/09/2023&end-publish-date=&edition=&london-issue=&edinburgh-issue=&belfast-issue=&sort-by=&results-page-size=100&results-page='   
+url_header = 'https://www.thegazette.co.uk/insolvency/notice?text=&categorycode=G405010102&categorycode=G405010202&categorycode=G405010302&categorycode=G405010501&categorycode=G405010502&categorycode=-2&location-postcode-1=&location-distance-1=1&location-local-authority-1=&numberOfLocationSearches=1&start-publish-date=23/01/2024&end-publish-date=&edition=&london-issue=&edinburgh-issue=&belfast-issue=&sort-by=&results-page-size=100&results-page='   
 
 headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
